@@ -1,5 +1,22 @@
 # bioinformatics_bootcamp
 
+
+loging in to summit:
+'''
+ssh <username>@login.rc.colorado.edu
+ssh kscott94@colostate.edu@login.rc.colorado.edu  #example
+'''
+
+password:
+<password>,push   #then accept the DUO push notification
+
+copying documents from/to summit:
+```
+scp <file> <destination>   #standard syntax
+scp file.txt <username>@login.rc.colorado.edu:<destination>   #specific syntax
+scp file.txt kscott94@colostate.edu@login.rc.colorado.edu:/home/files/   #example
+```
+
 Linux command line cheat sheet
 
 ![alt text](https://github.com/kscott94/bioinformatics_bootcamp/blob/main/pics/Linux-Command-reference-cheat-sheet.jpg)
