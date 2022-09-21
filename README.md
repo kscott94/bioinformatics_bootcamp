@@ -8,6 +8,7 @@ ssh kscott94@colostate.edu@login.rc.colorado.edu  #example
 ```
 
 Enter password when prompted:
+
 <password>,push   #then accept the DUO push notification
 
 copying documents from/to summit:
