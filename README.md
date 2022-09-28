@@ -1,7 +1,7 @@
 # bioinformatics_bootcamp
 
 
-### loging in to summit:
+### login to summit:
 ```
 ssh <username>@login.rc.colorado.edu
 ssh kscott94@colostate.edu@login.rc.colorado.edu  #example
