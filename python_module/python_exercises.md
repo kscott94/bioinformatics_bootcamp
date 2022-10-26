@@ -1,4 +1,4 @@
-#Take home exercises and additional learning material
+# Take home exercises and additional learning/review material
 
 ### 1. Codon optimize a gene sequence for expression in E. coli
 * Write a function that inputs a RNA or DNA coding sequence and outputs a RNA or DNA sequence where codons are optimized for gene expression in *E. coli*. 
@@ -21,20 +21,21 @@ https://www.youtube.com/watch?v=HJpiAZDJrRY
 
 
 ### 2. Random sequence generator
-* Watch this youtube video about the random numbers package: https://www.youtube.com/watch?v=KzqSDvzOFNA
-* Write a function to generate a random sequence of DNA. Allow user to specifiy length of random sequence and GC content. Output the random sequence in fasta format
+* Watch this youtube video about the random package: https://www.youtube.com/watch?v=KzqSDvzOFNA
+* Write a function to generate a random sequence of DNA. Allow the user to specifiy length of random sequence and GC content. Output the random sequence in fasta format
 
 
 ### 3. Describe a sequence
 * Write a function to "describe" an input nucleotide sequence.
-* Return the following characteristics of the inut sequence:
-    type (DNA or RNA)
-    length of the sequence
-    Count how many times each character occurs in the sequence and record the data in a python dictionary. For tips on manipulating dictionaries, watch: https://www.youtube.com/watch?v=daefaLgNkw0
-    GC content. For an extra challenge iterate through the characters dictionary to get the counts for G and C. 
+* Return the following characteristics of the input sequence:
+    - type (DNA or RNA)
+    - length of the sequence
+    - Count how many times each character occurs in the sequence and record the data in a python dictionary. For tips on manipulating dictionaries, watch: https://www.youtube.com/watch?v=daefaLgNkw0
+    - GC content. For an extra challenge iterate through the characters dictionary to get the counts for G and C. 
+
 example outout:
 if I wrote a function called describe,  this is what I would expect as output:
-> print(describe("AUCGAUCGGGGGG"))
+```> print(describe("AUCGAUCGGGGGG"))```
 
 length: 13
 type: RNA
