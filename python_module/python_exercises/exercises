@@ -1,6 +1,14 @@
 #Take home exercises and additional learning material
 
-1. Random sequence generator
+1. Codon optimize a gene sequence for expression in E. coli
+Write a function that inputs a RNA or DNA coding sequence and outputs a RNA or DNA sequence where codons where optimized for expression in E. coli. 
+Here is a link to the codon usage table in E. coli: https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=83333&aa=1&style=GCG
+Consider using the translate() function we have already written to translate a RNA/DNA sequence, then from the amino acid sequence, convert back to a RNA/DNA sequence with optimal codons.
+I have already written for you a python dictionary with the optimal codon associated with each amino acid ID.
+
+
+
+2. Random sequence generator
 Watch this youtube video about the random numbers package: https://www.youtube.com/watch?v=KzqSDvzOFNA
 Write a function to generate a random sequence of DNA. Allow user to specifiy length of random sequence and GC content. Output the random sequence in fasta format
 
