@@ -35,11 +35,13 @@ https://www.youtube.com/watch?v=HJpiAZDJrRY
 
 example outout:
 if I wrote a function called describe,  this is what I would expect as output:
+
 ```> print(describe("AUCGAUCGGGGGG"))```
 
 length: 13
+
 type: RNA
+
 GC content: 69.2%
+
 {'A': 2, 'U': 2, 'C': 2, 'G': 7}
-
-
