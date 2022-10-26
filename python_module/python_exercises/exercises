@@ -1,4 +1,4 @@
-# Take home exercises and additional learning material
+#Take home exercises and additional learning material#
 
 ### 1. Codon optimize a gene sequence for expression in E. coli
 * Write a function that inputs a RNA or DNA coding sequence and outputs a RNA or DNA sequence where codons are optimized for gene expression in E. coli. 
