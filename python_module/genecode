@@ -15,3 +15,10 @@ genecode = {
         'UUC': 'F', 'UUU': 'F', 'UUA': 'L', 'UUG': 'L',
         'UAC': 'Y', 'UAU': 'Y', 'UAA': '*', 'UAG': '*',
         'UGC': 'C', 'UGU': 'C', 'UGA': '*', 'UGG': 'W'}
+
+ecoli_optimal_codons = {
+    "Y":"UAU", "W":"UGG", "V":"GUG", "U":"ACC",
+    "S":"AGC", "R":"CGC", "Q":"CAG", "P":"CCG",
+    "N":"AAC", "M":"AUG", "L":"CUG", "K":"AAA",
+    "I":"AUU", "H":"CAU", "G":"GGC", "F":"UUU",
+    "E":"GAA", "D":"GAU", "C":"UGC", "A":"GCG"}
