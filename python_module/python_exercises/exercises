@@ -1,9 +1,8 @@
 #Take home exercises and additional learning material
 
 1. Random sequence generator
-watch this youtube video about the random numbers package: https://www.youtube.com/watch?v=KzqSDvzOFNA
-write a function to generate a random sequence of DNA. Allow user to specifiy length of random sequence and GC content.
-Output the random sequence in fasta format
+Watch this youtube video about the random numbers package: https://www.youtube.com/watch?v=KzqSDvzOFNA
+Write a function to generate a random sequence of DNA. Allow user to specifiy length of random sequence and GC content. Output the random sequence in fasta format
 
 
 
