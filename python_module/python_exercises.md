@@ -1,17 +1,19 @@
 #Take home exercises and additional learning material
 
 ### 1. Codon optimize a gene sequence for expression in E. coli
-* Write a function that inputs a RNA or DNA coding sequence and outputs a RNA or DNA sequence where codons are optimized for gene expression in E. coli. 
-* Here is a link to the codon usage table in E. coli: https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=83333&aa=1&style=GCG
+* Write a function that inputs a RNA or DNA coding sequence and outputs a RNA or DNA sequence where codons are optimized for gene expression in *E. coli*. 
+* Here is a link to the codon usage table in *E. coli*: https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=83333&aa=1&style=GCG
 * Consider using the translate() function we have already written to translate a RNA/DNA sequence, then from the amino acid sequence, convert back to a RNA/DNA sequence with optimal codons. OR feel free to implement your own logic. 
 * I have already written for you a python dictionary with the optimal codon associated with each amino acid ID:
 
+```
 ecoli_optimal_codons = {
     "Y":"UAU", "W":"UGG", "V":"GUG", "U":"ACC",
     "S":"AGC", "R":"CGC", "Q":"CAG", "P":"CCG",
     "N":"AAC", "M":"AUG", "L":"CUG", "K":"AAA",
     "I":"AUU", "H":"CAU", "G":"GGC", "F":"UUU",
     "E":"GAA", "D":"GAU", "C":"UGC", "A":"GCG"}
+```
 
 * Challenge: allow user to specificy a DNA or RNA sequence output. I would watch this youtube video and focus on how the .replace() method could be used to change U to T or vise versa:
 https://www.youtube.com/watch?v=HJpiAZDJrRY
