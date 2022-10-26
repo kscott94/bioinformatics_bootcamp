@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=HJpiAZDJrRY
 
 ### 2. Random sequence generator
 * Watch this youtube video about the random package: https://www.youtube.com/watch?v=KzqSDvzOFNA
-* Write a function to generate a random sequence of DNA. Allow the user to specifiy length of random sequence and GC content. Output the random sequence in fasta format
+* Write a function to generate a random sequence of DNA. Allow the user to specify length of random sequence and GC content. Output the random sequence in fasta format
 
 
 ### 3. Describe a sequence
@@ -38,10 +38,7 @@ if I wrote a function called describe,  this is what I would expect as output:
 
 ```> print(describe("AUCGAUCGGGGGG"))```
 
-length: 13
-
-type: RNA
-
-GC content: 69.2%
-
+length: 13\
+type: RNA\
+GC content: 69.2%\
 {'A': 2, 'U': 2, 'C': 2, 'G': 7}
