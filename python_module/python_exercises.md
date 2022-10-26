@@ -1,6 +1,6 @@
 # Take home exercises and additional learning/review material
 
-### 1. Codon optimize a gene sequence for expression in E. coli
+### 1. Codon optimize a gene sequence for expression in *E. coli*
 * Write a function that inputs a RNA or DNA coding sequence and outputs a RNA or DNA sequence where codons are optimized for gene expression in *E. coli*. 
 * Here is a link to the codon usage table in *E. coli*: https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=83333&aa=1&style=GCG
 * Consider using the translate() function we have already written to translate a RNA/DNA sequence, then from the amino acid sequence, convert back to a RNA/DNA sequence with optimal codons. OR feel free to implement your own logic. 
