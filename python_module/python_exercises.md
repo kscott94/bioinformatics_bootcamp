@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=HJpiAZDJrRY
     - Count how many times each character occurs in the sequence and record the data in a python dictionary. For tips on manipulating dictionaries, watch: https://www.youtube.com/watch?v=daefaLgNkw0
     - Percent GC content. For an extra challenge, do not use a for-loop to count the Gs and Cs, instead query the characters dictionary to get the counts for G and C, add them together then divide by the length of the sequence.
 
-example outout:
+example output:
 if I wrote a function called describe,  this is what I would expect as output:
 
 ```> print(describe("AUCGAUCGGGGGG"))```
