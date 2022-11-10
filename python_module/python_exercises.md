@@ -50,8 +50,10 @@ GC content: 69.2%\
 
 ### if __name__ == "__main__"
 In general, this should always be used when scripting:
-```if __name__ == "__main__":
-   pass```
+```
+if __name__ == "__main__":
+   pass
+```
 
 Explaination: https://www.youtube.com/watch?v=sugvnHA7ElY
 
