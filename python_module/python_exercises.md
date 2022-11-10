@@ -1,4 +1,4 @@
-# Take home exercises and additional learning/review material
+# Take home exercises
 
 ### 1. Codon optimize a gene sequence for expression in *E. coli*
 * Write a function that inputs a RNA or DNA coding sequence and outputs a RNA or DNA sequence where codons are optimized for gene expression in *E. coli*. 
@@ -43,3 +43,45 @@ length: 13\
 type: RNA\
 GC content: 69.2%\
 {'A': 2, 'U': 2, 'C': 2, 'G': 7}
+
+
+
+# Additional concepts for beginner python
+
+### if __name__ == "__main__"
+In general, this should always be used when scripting:
+```if __name__ == "__main__":
+   pass```
+
+Explaination: https://www.youtube.com/watch?v=sugvnHA7ElY
+
+### tuples and sets
+* Variations of a python list
+Details: https://www.youtube.com/watch?v=W8KRzm-HUcc&t=1s
+
+
+### for/while-loop control
+* break/continue : https://www.youtube.com/watch?v=6iF8Xb7Z3wQ
+
+
+### reading/writing/iterarting through text files
+* We have some practice with opening text files using a file manager (```with open("file.txt")```). 
+* For a little more practice: https://www.youtube.com/watch?v=Uh2ebFW8OYM&t=1s
+
+
+
+# Useful concepts for intermediate python
+
+### list comprehension
+* Efficeint way to write code for iterating through and manipulating lists and strings
+* It is less verbose (and therfore faster to write) that traditional list/string manipulations, but accomplishes the same goal. 
+* tutorial 1: https://www.youtube.com/watch?v=3dt4OGnU5sM
+* tutorial 2: https://www.youtube.com/watch?v=SNq4C988FjU  #note: don't worry about the lambda functions yet
+
+
+### lambda functions
+* This is an alternative way to write a function.
+* I never use lambda functions unless I have too.
+* There are instances when a lambda function is neccessary. I can't think of any off the top of my head, but you should know they exist. 
+* Tutorial: 
+
