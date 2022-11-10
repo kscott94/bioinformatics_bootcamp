@@ -22,7 +22,8 @@ https://www.youtube.com/watch?v=HJpiAZDJrRY
 
 ### 2. Random sequence generator
 * Watch this youtube video about the random package: https://www.youtube.com/watch?v=KzqSDvzOFNA
-* Write a function to generate a random sequence of DNA. Allow the user to specify length of random sequence and GC content. Output the random sequence in fasta format
+* Write a function to generate a random sequence of DNA. Allow the user to specify length of random sequence and GC content. Output the random sequence in fasta format. In the header of the fasta formated sequence, could include the actual GC content.
+* Challenge: allow the user to specify acceptable range for GC content (e.g. 50% plus or minus 3%). Check to see if the actual GC content is within the acceptable range. If not, generate a new random sequence until it contains the acceptable GC content range.
 
 
 ### 3. Describe a sequence
@@ -31,7 +32,7 @@ https://www.youtube.com/watch?v=HJpiAZDJrRY
     - type (DNA or RNA)
     - length of the sequence
     - Count how many times each character occurs in the sequence and record the data in a python dictionary. For tips on manipulating dictionaries, watch: https://www.youtube.com/watch?v=daefaLgNkw0
-    - GC content. For an extra challenge iterate through the characters dictionary to get the counts for G and C. 
+    - Percent GC content. For an extra challenge, do not use a for-loop to count the Gs and Cs, instead query the characters dictionary to get the counts for G and C, add them together then divide by the length of the sequence.
 
 example outout:
 if I wrote a function called describe,  this is what I would expect as output:
