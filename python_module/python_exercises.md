@@ -66,7 +66,7 @@ Details: https://www.youtube.com/watch?v=W8KRzm-HUcc&t=1s
 * break/continue : https://www.youtube.com/watch?v=6iF8Xb7Z3wQ
 
 
-### reading/writing/iterarting through text files
+### reading/writing/iterating through text files
 * We have some practice with opening text files using a file manager (```with open("file.txt")```). 
 * For a little more practice: https://www.youtube.com/watch?v=Uh2ebFW8OYM&t=1s
 
