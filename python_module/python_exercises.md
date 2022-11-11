@@ -75,7 +75,7 @@ turotial: https://www.youtube.com/watch?v=sugvnHA7ElY
 # Useful concepts for intermediate python
 
 ### list comprehension
-* Efficeint way to write code for iterating through and manipulating lists and strings
+* Efficient way to write code for iterating through and manipulating lists and strings
 * It is less verbose (and therefore faster to write) than traditional for-loops, but accomplishes the same goal. List comprehension is a good way to take your code to the next level. 
 * tutorial 1: https://www.youtube.com/watch?v=3dt4OGnU5sM
 * tutorial 2: https://www.youtube.com/watch?v=SNq4C988FjU  #note: don't worry about the lambda functions yet
