@@ -1,5 +1,5 @@
 # bioinformatics_bootcamp
-
+bootcampt intended to teach biginner level command line navigation and python.
 
 ### login to summit:
 ```
